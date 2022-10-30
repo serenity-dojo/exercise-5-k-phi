@@ -14,4 +14,9 @@ public class Cat extends Pet {
     public void setFavoriteToy(String favoriteToy) {
         this.favoriteToy = favoriteToy;
     }
+
+    @Override
+    public String play() {
+        return "plays with string";
+    }
 }

@@ -1,6 +1,6 @@
 package com.serenitydojo;
 
-public class Pet {
+public abstract class Pet {
     private final String name;
     private final int age;
 
@@ -16,4 +16,6 @@ public class Pet {
     public int getAge() {
         return age;
     }
+
+    public abstract String play();
 }
